@@ -7,7 +7,6 @@
   <ItemGroup>
     <None Remove="Data\1_Points.json" />
     <None Remove="Data\2_Points.json" />
-    <None Remove="Data\2_Points_mathc.json" />
     <None Remove="Data\3_Points.json" />
     <None Remove="Data\4_Points.json" />
     <None Remove="Data\5_Points.json" />
@@ -20,11 +19,6 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
     </Content>
     <Content Include="Data\2_Points.json">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
-      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
-    </Content>
-    <Content Include="Data\2_Points_mathc.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
